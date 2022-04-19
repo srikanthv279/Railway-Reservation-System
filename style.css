@@ -1,0 +1,105 @@
+body{
+    background-image: url(rail.jpg);
+    background-repeat: no-repeat;
+    overflow: scroll;
+    background-size: cover;
+}
+.container {
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 0 1px #333;
+}
+.header{
+    text-align: center;
+    padding-top: 20px;
+}
+.header h3{
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.main{
+    margin-left: 50px;
+}
+.main input{
+    width: 100px;
+    height: 20px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #333;
+}
+
+h1 {text-align: center;}
+h2 {text-align: center;}
+
+.topnav {
+   background-color: rgba(0,0,0,0.5);
+   overflow: hidden;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   float: right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 16px;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color:grey;
+   color: white;
+ }
+  label {
+            float: left;
+        }
+          
+        span {
+            display: block;
+            overflow: hidden;
+            padding: 0px 4px 0px 6px;
+        }
+
+.footer{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+    background: rgba(0,0,0,0.2);
+    height: 250px;
+    position: relative;
+}
+.footer-content{
+    height: 350px;
+    display: flex;
+}
+.footer-section{
+    flex: 1;
+    border: 1px solid white;
+    padding: 25px;
+}
+.footer-content h2,p{
+    color: black;
+}
+
+.footer-content .Tourist{
+    background-color: rgba(243, 231, 231, 0.3);
+}
+.footer-content .National{
+    background-color: rgba(243, 231, 231, 0.3);
+}
+.footer-content .International{
+    background-color: rgba(243, 231, 231, 0.3);
+}
